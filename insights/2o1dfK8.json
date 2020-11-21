@@ -1,0 +1,29 @@
+{
+  "type": "project_activity",
+  "params": {
+    "projectKey": "TEST"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "das",
+  "dashboardCreationId": "3mxXFXN",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1605953943467
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1605953943467
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605950268179
+    "lastModifiedOn": 1605950291844
   },
   "creationTag": {
     "versionNumber": 0,
@@ -117,11 +117,11 @@
         "type": "string"
       },
       {
-        "name": "患者_年代",
+        "name": "Age",
         "type": "string"
       },
       {
-        "name": "患者_性別",
+        "name": "Gender",
         "type": "string"
       },
       {

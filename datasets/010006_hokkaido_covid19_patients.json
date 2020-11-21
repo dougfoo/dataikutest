@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605949345112
+    "lastModifiedOn": 1605949977263
   },
   "creationTag": {
     "versionNumber": 0,
@@ -105,11 +105,11 @@
         "type": "string"
       },
       {
-        "name": "公表_年月日",
+        "name": "InfectDate",
         "type": "string"
       },
       {
-        "name": "発症_年月日",
+        "name": "AnnounceDate",
         "type": "string"
       },
       {

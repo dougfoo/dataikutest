@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605949977263
+    "lastModifiedOn": 1605950034836
   },
   "creationTag": {
     "versionNumber": 0,
@@ -151,6 +151,11 @@
       {
         "name": "備考",
         "type": "string"
+      },
+      {
+        "name": "AgeGroup",
+        "type": "string",
+        "maxLength": 1000
       }
     ],
     "userModified": true

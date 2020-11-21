@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605950210757
+    "lastModifiedOn": 1605950268179
   },
   "creationTag": {
     "versionNumber": 0,
@@ -109,7 +109,7 @@
         "type": "string"
       },
       {
-        "name": "AnnounceDate",
+        "name": "発症_年月日",
         "type": "string"
       },
       {
@@ -117,11 +117,11 @@
         "type": "string"
       },
       {
-        "name": "Age",
+        "name": "患者_年代",
         "type": "string"
       },
       {
-        "name": "Gender",
+        "name": "患者_性別",
         "type": "string"
       },
       {
@@ -151,21 +151,6 @@
       {
         "name": "備考",
         "type": "string"
-      },
-      {
-        "name": "AgeGroup",
-        "type": "string",
-        "maxLength": 1000
-      },
-      {
-        "name": "Gender",
-        "type": "string",
-        "maxLength": 1000
-      },
-      {
-        "name": "Age",
-        "type": "string",
-        "maxLength": 1000
       }
     ],
     "userModified": true

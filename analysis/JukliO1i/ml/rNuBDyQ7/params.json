@@ -649,7 +649,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "decision_tree_classification": {
       "max_depth": {
@@ -759,7 +759,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "ridge_regression": {
       "alphaMode": "MANUAL",
@@ -807,7 +807,7 @@
     },
     "leastsquare_regression": {
       "n_jobs": 2,
-      "enabled": false
+      "enabled": true
     },
     "sgd_regression": {
       "epsilon": {
@@ -871,7 +871,7 @@
       "max_iter": 1000,
       "tol": 0.001,
       "n_jobs": 2,
-      "enabled": false
+      "enabled": true
     },
     "sgd_classifier": {
       "loss": {
@@ -1149,7 +1149,7 @@
       "coef0": 0.0,
       "tol": 0.001,
       "max_iter": -1,
-      "enabled": false
+      "enabled": true
     },
     "lars_params": {
       "max_features": 0,
@@ -1364,7 +1364,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,

@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605949695622
+    "lastModifiedOn": 1605950374408
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,67 +87,15 @@
   "schema": {
     "columns": [
       {
-        "name": "No",
-        "type": "bigint"
-      },
-      {
-        "name": "全国地方公共団体コード",
-        "type": "bigint"
-      },
-      {
-        "name": "都道府県名",
+        "name": "Date",
         "type": "string"
       },
       {
-        "name": "市区町村名",
-        "type": "double"
-      },
-      {
-        "name": "公表_年月日",
+        "name": "Age",
         "type": "string"
       },
       {
-        "name": "発症_年月日",
-        "type": "string"
-      },
-      {
-        "name": "患者_居住地",
-        "type": "string"
-      },
-      {
-        "name": "患者_年代",
-        "type": "string"
-      },
-      {
-        "name": "患者_性別",
-        "type": "string"
-      },
-      {
-        "name": "患者_職業",
-        "type": "string"
-      },
-      {
-        "name": "患者_状態",
-        "type": "string"
-      },
-      {
-        "name": "患者_症状",
-        "type": "string"
-      },
-      {
-        "name": "患者_渡航歴の有無フラグ",
-        "type": "bigint"
-      },
-      {
-        "name": "患者_再陽性フラグ",
-        "type": "string"
-      },
-      {
-        "name": "患者_退院済フラグ",
-        "type": "double"
-      },
-      {
-        "name": "備考",
+        "name": "Gender",
         "type": "string"
       }
     ],

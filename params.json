@@ -1,7 +1,17 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": []
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "mycols_by_Date_prepared",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      }
+    ]
   },
   "exposedObjects": {
     "objects": []
@@ -190,11 +200,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605951729673
+    "lastModifiedOn": 1605953927058
   },
   "creationTag": {
     "versionNumber": 0,

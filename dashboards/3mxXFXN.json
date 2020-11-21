@@ -27,6 +27,28 @@
             "insightType": "dataset_table",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 6,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "CONTRIBUTION_CHARTS",
+              "summaryChart": "commits",
+              "timeSpan": "year",
+              "contributorsChart": "commits"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "2o1dfK8",
+            "insightType": "project_activity",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -38,11 +60,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605953927879
+    "lastModifiedOn": 1605953970454
   },
   "creationTag": {
     "versionNumber": 0,

@@ -1,12 +1,36 @@
 {
   "inputDatasetSmartName": "mycols_by_Date",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "FilterOnValue",
+        "params": {
+          "values": [
+            "2020-01-28"
+          ],
+          "matchingMode": "SUBSTRING",
+          "normalizationMode": "EXACT",
+          "action": "REMOVE_ROW",
+          "booleanMode": "AND",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Date"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "Date": 100,
+      "count": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -41,7 +65,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -49,11 +75,11 @@
   "charts": [],
   "name": "Quick modeling of count on mycols_by_Date",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605951199374
+    "lastModifiedOn": 1605951257535
   },
   "creationTag": {
     "versionNumber": 0,

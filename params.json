@@ -19,7 +19,20 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "dougfoo",
+              "accessToken": "0f2ff70b6239dce04bc0fbceca7ff19d4be2bfc0",
+              "repository": "dataikutest"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
@@ -175,6 +188,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1605951729673
   },
   "creationTag": {
     "versionNumber": 0,

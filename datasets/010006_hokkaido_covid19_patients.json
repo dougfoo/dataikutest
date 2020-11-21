@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605950034836
+    "lastModifiedOn": 1605950052743
   },
   "creationTag": {
     "versionNumber": 0,
@@ -154,6 +154,11 @@
       },
       {
         "name": "AgeGroup",
+        "type": "string",
+        "maxLength": 1000
+      },
+      {
+        "name": "Gender",
         "type": "string",
         "maxLength": 1000
       }

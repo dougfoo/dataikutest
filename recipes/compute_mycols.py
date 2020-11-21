@@ -12,7 +12,7 @@ hokkaido_covid19_patients_df = hokkaido_covid19_patients.get_dataframe()
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
-mycols_df = hokkaido_covid19_patients_df[3]
+mycols_df = hokkaido_covid19_patients_df[['Date','Age','Gender']]
 # For this sample code, simply copy input to output
 
 
